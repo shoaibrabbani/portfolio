@@ -41,6 +41,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_skin (0.0.12)
     activejob (5.1.4)
       activesupport (= 5.1.4)
       globalid (>= 0.3.6)
@@ -64,7 +65,6 @@ GEM
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
-    bcrypt (3.1.11)
     bcrypt (3.1.11-x86-mingw32)
     bindex (0.5.0)
     builder (3.2.3)
@@ -243,6 +243,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  active_skin
   activeadmin!
   bcrypt
   byebug
